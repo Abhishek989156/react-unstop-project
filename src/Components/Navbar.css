@@ -1,0 +1,40 @@
+.navbar{
+    border-bottom: 2px solid #ceced0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   padding: 2px;
+    
+
+  }
+ #assessment{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 20px;
+    padding-right: 20px;
+
+    border-right: 1px solid #ceced0;
+    font-size: 25px;
+    color:#2c568a;
+    font-family: Arial;
+    
+
+
+ } 
+ .rightside{
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1%;
+
+ }
+ #myassess{
+    border-bottom: 2px solid #1981ea;
+    padding:10px;
+    color:#1882ed;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+ }

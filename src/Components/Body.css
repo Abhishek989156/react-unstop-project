@@ -1,0 +1,73 @@
+.body{
+display: flex;
+
+height: 100vh;
+flex-direction: column;
+margin-left: 20px;
+margin-right: 20px;
+
+}
+.assessmentoverview{
+    display: flex;
+    
+   
+    flex-direction: column;
+
+}
+.cards1{
+    display: flex;
+    
+    height:110px;
+    border: 1px solid #ceced0;
+    border-radius: 15px;
+  
+    
+}
+.subcards1{
+    display: flex;
+    
+    flex-direction: column;
+    
+    
+    
+}
+.myassessment{
+    display: flex;
+    flex: 1;
+    
+    flex-direction: column;
+    
+
+
+}
+.cards2{
+    display: flex;
+    gap: 2rem;
+    
+
+}
+.subcards2{
+    border: 1px solid #ceced0;
+    border-radius: 20px;
+    height: 200px;
+    width: calc(100%/3);
+    
+   
+}
+.subcards22{
+    border: 1px solid #ceced0;
+    border-radius: 20px;
+    height: 200px;
+    width: calc(100%/3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #f6f8fa;
+}
+.subcards22:hover{
+    cursor: pointer;
+}
+.subcards23{
+    background-color: blue;
+}
